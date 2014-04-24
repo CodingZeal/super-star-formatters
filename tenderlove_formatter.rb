@@ -6,8 +6,8 @@ end
 
 class TenderloveFormatter < RSpec::Core::Formatters::BaseTextFormatter
   IMAGES = [
-    './spec/formatters/tenderlove.png',
-    './spec/formatters/aaron-patterson.png'
+    './images/tenderlove.png',
+    './images/aaron-patterson.png'
   ]
   def close
     `open ./spec/formatters/tenderlove.png`
